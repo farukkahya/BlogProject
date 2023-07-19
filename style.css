@@ -14,7 +14,7 @@ Description: This is a blog site project
     --mwd-black: #121212;
     --mwd-orange: #ec6900;
     --mwd-blue: #000969;
-    --mwd-white: #fefefe;
+    --mwd-white: #fdfdfd;
     --mwd-logo-font: 'Raleway', sans-serif;
 }
 
@@ -28,3 +28,22 @@ html{
     font-family: Cambria, sans-serif;
     font-size: 15px;
 }
+
+/* NAVBAR FIRST */
+#navbar_first{
+    background-color: var(--mwd-black);
+    color: var(--mwd-white);
+    padding: 5px;
+}
+#navbar_first_left i, #navbar_first_right i{
+    margin-right: 2px;
+}
+#navbar_first_left span, #navbar_first_right span{
+    font-weight: 500;
+}
+#navbar_first_right i{
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+
