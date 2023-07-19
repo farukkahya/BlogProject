@@ -1,0 +1,30 @@
+/*
+Project Name: Blog
+Project Author: Design and Codes by Faruk Kahya
+Version: V1
+Description: This is a blog site project
+*/
+
+/* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+
+/* Common Property */
+:root{
+    --mwd-black: #121212;
+    --mwd-orange: #ec6900;
+    --mwd-blue: #000969;
+    --mwd-white: #fefefe;
+    --mwd-logo-font: 'Raleway', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Cambria, sans-serif;
+    font-size: 15px;
+}
