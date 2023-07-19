@@ -17,13 +17,19 @@
 	<!-- Bootstrap CSS v5.2.1 -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
 		  integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+	<!-- Jquery -->
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
 
+	<!-- animate CSS-->
+	<!-- <link rel="stylesheet" href="css/animate.min.css"> -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 	<!-- My Styles	-->
 	<link rel="stylesheet" href="style.css">
 	<title>MWD BLOG</title>
 </head>
-<body>
-
+<body data-bs-spy="scroll" data-bs-target="#navbar_second">
 <!-- Navbar First strat -->
 <nav class="d-flex justify-content-around " id="navbar_first">
 	<div class="d-flex gap-3" id="navbar_first_left">
@@ -40,7 +46,7 @@
 			<span>TURKEY</span>
 		</span>
 	</div>
-	<div class="d-flex gap-3"  id="navbar_first_right">
+	<div class="d-flex gap-3" id="navbar_first_right">
 		<span>
 			<i class="fa-solid fa-right-to-bracket"></i>
 		</span>
@@ -50,9 +56,72 @@
 	</div>
 </nav>
 <!-- Navbar First end -->
-
+<!-- Navbar Second start -->
+<nav id="navbar_second" class="navbar navbar-expand-md">
+	<div class="container">
+		<a class="navbar-brand" href="./index.html">
+			<div id="logo">
+				<span id="logo_letter_1">M</span>
+				<span id="logo_letter_2">W</span>
+				<span id="logo_letter_3">D</span>
+			</div>
+		</a>
+		<button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+				data-bs-target="#collapsible_navbar_second" aria-controls="collapsible_navbar_second"
+				aria-expanded="false"
+				aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="collapsible_navbar_second">
+			<ul class="navbar-nav me-auto mt-2 mt-lg-0 d-flex gap-2" id="center_items">
+				<li class="nav-item">
+					<a class="nav-link active" href="#header" aria-current="page"><i class="fa-solid fa-house"></i>
+						Anasayfa <span
+								class="visually-hidden">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#product"><i class="fa-brands fa-product-hunt"></i> Ürünler</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#about_me"><i class="fa-solid fa-address-card"></i> Hakkımda</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#newspaper"> <i class="fa-solid fa-newspaper"></i>Haberler </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#blog"><i class="fa-brands fa-blogger"></i> Blog</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#lessons" id="dropdownId" data-bs-toggle="dropdown"
+					   aria-haspopup="true" aria-expanded="false"><i class="fa-solid fa-person-chalkboard"></i> Dersler</a>
+					<div class="dropdown-menu" aria-labelledby="dropdownId">
+						<a class="dropdown-item" href="#">Frontend</a>
+						<a class="dropdown-item" href="#">Backend</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#footer"> <i class="fa-solid fa-phone-volume"></i> İletişim</a>
+				</li>
+			</ul>
+			<form class="d-flex my-2 my-lg-0">
+				<input class="form-control me-sm-2" id="search_id" type="text" placeholder="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			</form>
+		</div>
+	</div>
+</nav>
+<!-- Navbar Second end -->
 
 <!-- My Scripts -->
 <script src="app.js"></script>
+
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+		integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+		crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+		integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+		crossorigin="anonymous"></script>
+
 </body>
 </html>
