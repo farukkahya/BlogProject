@@ -175,7 +175,14 @@ h2{
     background-size: cover;
     height: 50rem;
 }
+
 #about_us .bg-dark{
     width: 50%;
+    transition: .3s all linear;
+    opacity: .7;
+}
+#about_us .bg-dark:hover{
+    transform: scale(1.2);
+    opacity: .9;
 }
 /* About Us end */
