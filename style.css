@@ -96,6 +96,11 @@ h2{
     transform: scale(1.2);
 }
 /* Navbar First end */
+/* Offcanvas start */
+.offcanvas {
+    transition: all .5s linear;
+}
+/* Offcanvas end */
 /* Navbar Second start */
 #navbar_second{
     background-color: var(--mwd-white);
