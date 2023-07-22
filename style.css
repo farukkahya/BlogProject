@@ -183,7 +183,7 @@ h2{
 }
 
 #about_us .bg-dark{
-    width: 50%;
+    width: 60%;
     transition: .3s all ease;
     opacity: .7;
 }
@@ -227,6 +227,9 @@ h2{
 @media (max-width: 766px){
     #navbar_second #center_items a{
         font-size: 1.2rem;
+    }
+    #about_us .bg-dark{
+        width: 70%;
     }
 }
 /* Media end */
