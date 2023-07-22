@@ -108,6 +108,7 @@ h2{
     position: sticky;
     top: -1px;
     z-index: 1;
+    box-shadow: 1px 1px 10px rgba(103, 103, 103, 0.65);
 }
 #navbar_second #logo{
     font-family: var(--mwd-logo-font);
@@ -160,7 +161,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    /*width: 50%;*/
     height: min-content;
     transition: all .2s ease;
 }
@@ -197,7 +198,7 @@ h2{
     margin-top: 3rem;
 }
 #news .container{
-    width: 50%;
+    /*width: 50%;*/
     margin-bottom: 3rem;
     border-bottom: 3px solid var(--mwd-gray);
     transition: .2s all ease;
@@ -206,3 +207,26 @@ h2{
     transform: scale(1.2);
 }
 /* News end */
+
+
+
+
+
+
+
+/* Media start */
+@media (max-width: 1200px){
+    #navbar_second #center_items a{
+        font-size: .8rem;
+        font-weight: 400;
+    }
+    #about_us .bg-dark{
+        width: 70%;
+    }
+}
+@media (max-width: 766px){
+    #navbar_second #center_items a{
+        font-size: 1.2rem;
+    }
+}
+/* Media end */
