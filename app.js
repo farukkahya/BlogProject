@@ -4,3 +4,9 @@ $(document).ready(function () {
 		source: searchData
 	});
 });
+
+// now date
+const nowDate = () => {
+	document.getElementById('now_date').innerHTML = new Date().getFullYear();
+}
+nowDate();

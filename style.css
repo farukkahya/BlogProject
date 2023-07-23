@@ -249,18 +249,16 @@ a:hover {
 
 /* Blog start */
 #blog {
-    padding-top: 2rem;
-    color: var(--mwd-white);
+    padding: 2rem;
     background-image: url("./img/background_2.jpg");
 }
 
 .blog_card {
     max-width: 320px;
-    background-color: var(--mwd-black);
+    background-color: var(--mwd-white);
     margin-right: .3rem;
     margin-bottom: .3rem;
     padding: .5rem;
-    opacity: .7;
     cursor: pointer;
     position: relative;
     display: block;
@@ -314,6 +312,13 @@ a:hover {
     line-height: 1.5;
 }
 /* Blog end */
+/* Main end */
+/* Footer start */
+#copy_right{
+    height: 5rem;
+    padding-top:2rem
+}
+/* Footer end */
 /* Media start */
 @media (max-width: 1200px) {
     #navbar_second #center_items a {

@@ -198,7 +198,6 @@
 	</div>
 </header>
 <!-- Header end -->
-
 <!-- Main start -->
 <main id="main">
 	<!-- Products start -->
@@ -271,6 +270,7 @@
 		</div>
 	</section>
 	<!-- About Me end -->
+	<!-- News Start -->
 	<section class="d-flex flex-column justify-content-cente align-items-center" id="news">
 		<div class="container text-center  col-md-9">
 			<h2>MWD is 1 years old!</h2>
@@ -326,11 +326,13 @@
 			</p>
 		</div>
 	</section>
+<!-- News end -->
+<!-- Blog start -->
 	<section id="blog">
 		<div class="container">
 			<div class="d-flex text-center row">
-				<h2>BLOGS</h2>
-				<div class="blog_card col-md-3 col-sm-6 col-xs-9">
+				<h2 class="text-white">BLOGS</h2>
+				<div class="blog_card col-md-3 col-sm-12">
 					<a href="./detail_page.html">
 						<figure>
 							<img src="./img/computer_1.jpg" alt="blog_image">
@@ -348,7 +350,7 @@
 						</p>
 					</a>
 				</div>
-				<div class="blog_card col-md-3 col-sm-6 col-xs-9">
+				<div class="blog_card col-md-3 col-sm-12">
 					<a href="./detail_page.html">
 						<figure>
 							<img src="./img/computer_1.jpg" alt="blog_image">
@@ -366,7 +368,7 @@
 						</p>
 					</a>
 				</div>
-				<div class="blog_card col-md-3 col-sm-6 col-xs-9">
+				<div class="blog_card col-md-3 col-sm-12">
 					<a href="./detail_page.html">
 						<figure>
 							<img src="./img/computer_1.jpg" alt="blog_image">
@@ -384,7 +386,7 @@
 						</p>
 					</a>
 				</div>
-				<div class="blog_card col-md-3 col-sm-6 col-xs-9">
+				<div class="blog_card col-md-3 col-sm-12">
 					<a href="./detail_page.html">
 						<figure>
 							<img src="./img/computer_1.jpg" alt="blog_image">
@@ -402,7 +404,7 @@
 						</p>
 					</a>
 				</div>
-				<div class="blog_card col-md-3 col-sm-6 col-xs-9">
+				<div class="blog_card col-md-3 col-sm-12">
 					<a href="./detail_page.html">
 						<figure>
 							<img src="./img/computer_1.jpg" alt="blog_image">
@@ -420,7 +422,7 @@
 						</p>
 					</a>
 				</div>
-				<div class="blog_card col-md-3 col-sm-6 col-xs-9">
+				<div class="blog_card col-md-3 col-sm-12">
 					<a href="./detail_page.html">
 						<figure>
 							<img src="./img/computer_1.jpg" alt="blog_image">
@@ -438,7 +440,7 @@
 						</p>
 					</a>
 				</div>
-				<div class="blog_card col-md-3 col-sm-6 col-xs-9">
+				<div class="blog_card col-md-3 col-sm-12">
 					<a href="./detail_page.html">
 						<figure>
 							<img src="./img/computer_1.jpg" alt="blog_image">
@@ -456,7 +458,7 @@
 						</p>
 					</a>
 				</div>
-				<div class="blog_card col-md-3 col-sm-6 col-xs-9">
+				<div class="blog_card col-md-3 col-sm-12">
 					<a href="./detail_page.html">
 						<figure>
 							<img src="./img/computer_1.jpg" alt="blog_image">
@@ -475,9 +477,50 @@
 					</a>
 				</div>
 	</section>
+<!-- Blog end -->
 </main>
 <!-- Main end -->
+<!-- Footer start-->
+<footer id="footer">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-9 bg-dark">
+				<iframe width="100%" height="440" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+						id="gmap_canvas"
+						src="https://maps.google.com/maps?width=723&amp;height=440&amp;hl=en&amp;q=atakum%Samsun+(Haritam)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+			</div>
+			<div class="col-md-3 bg-dark text-white" id="contact">
+				<h4 class="text-center display-5">Write Me</h4>
+				<form action="#!" method="post">
+					<div class="mb-3">
+						<label for="name_surname" class="form-label">Name And Surname</label>
+						<input type="email" class="form-control" id="name_surname"
+							   placeholder="name and surname">
+					</div>
+					<div class="mb-3">
+						<label for="exampleFormControlInput1" class="form-label">Email address</label>
+						<input type="email" class="form-control" id="exampleFormControlInput1"
+							   placeholder="name@example.com">
+					</div>
+					<div class="mb-3">
+						<label for="password_id" class="form-label">Password</label>
+						<input type="password" class="form-control" id="password_id" name="password_id"
+							   placeholder="şifrenizi giriniz">
+					</div>
 
+					<div class="mb-3">
+						<input type="reset" class="btn btn-danger" value="Temizle"/>
+						<button type="submit" class="btn btn-primary">Gönder</button>
+					</div>
+				</form>
+			</div>
+			<div class="col-md-12 text-center bg-dark text-white" id="copy_right">2021-<span id="now_date"></span>
+				Design By: <a href="https://www.github.com/farukkahya"> Faruk Kahya</a> &copy; Bütün Haklar Saklıdır.
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- Footer end-->
 <!-- My Scripts -->
 <script src="app.js"></script>
 
